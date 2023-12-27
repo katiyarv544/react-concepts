@@ -7,7 +7,7 @@ import React from 'react';
     <div>
     <h1>Hello {props.name} - {props.last}</h1>
              {props.children}
-             </div>
+    </div>
     )
 }
 export default Header;

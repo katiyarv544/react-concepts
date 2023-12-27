@@ -1,7 +1,10 @@
-
+import React from "react";
 import './App.css';
 import Header from './components/Header'
-function App() {
+import Cheader from './components/Cheader'
+//function App() {
+  class App extends React.Component{
+    render(){
   return (
     <div className="App">
       <Header name="vikash" last="katiyar">
@@ -9,8 +12,10 @@ function App() {
       </Header>
       <Header name="vikash1" last="katiyar1"/>
       <Header name="vikash2" last="katiyar2"/>
+      <Cheader name="Ravi" />
     </div>
   );
+ }
 }
 
 export default App;
