@@ -3,6 +3,9 @@ import './App.css';
 import Header from './components/Header'
 import Cheader from './components/Cheader'
 import Channel from './components/Channel'
+import FunctionClick from './components/FunctionClick'
+import CFunctionClick from './components/CFunctionClick'
+
 
 //function App() {
   class App extends React.Component{
@@ -16,6 +19,9 @@ import Channel from './components/Channel'
       <Header name="vikash2" last="katiyar2"/>
       <Cheader name="Ravi" />
       <Channel />
+      <FunctionClick />
+      <CFunctionClick />
+
     </div>
   );
  }
